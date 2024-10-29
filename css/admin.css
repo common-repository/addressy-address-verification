@@ -1,0 +1,624 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3281490, 2016-09-12T05:25:56-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: AvenirNextLTPro-Medium by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-medium/
+ * Copyright: Copyright &#x00A9; 2004 - 2007 Linotype GmbH, www.linotype.com. All rights reserved. This font software may not be reproduced, modified, disclosed or transferred without the express written approval of Linotype GmbH. Avenir is a trademark of Linotype GmbH
+ * 
+ * Webfont: AvenirLTStd-Roman by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/55-roman/
+ * Copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
+ * 
+ * Webfont: AvenirLTStd-Book by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/45-book/
+ * Copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3281490
+ * Licensed pageviews: 250,000
+ * 
+ * © 2016 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import (css) url("//hello.myfonts.net/count/321252");
+
+  
+@font-face {font-family: 'AvenirNextLTPro-Medium';src: url('./Fonts/321252_0_0.eot');src: url('./Fonts/321252_0_0.eot?#iefix') format('embedded-opentype'),url('./Fonts/321252_0_0.woff2') format('woff2'),url('./Fonts/321252_0_0.woff') format('woff'),url('./Fonts/321252_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirLTStd-Roman';src: url('./Fonts/321252_1_0.eot');src: url('./Fonts/321252_1_0.eot?#iefix') format('embedded-opentype'),url('./Fonts/321252_1_0.woff2') format('woff2'),url('./Fonts/321252_1_0.woff') format('woff'),url('./Fonts/321252_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'AvenirLTStd-Book';src: url('./Fonts/321252_2_0.eot');src: url('./Fonts/321252_2_0.eot?#iefix') format('embedded-opentype'),url('./Fonts/321252_2_0.woff2') format('woff2'),url('./Fonts/321252_2_0.woff') format('woff'),url('./Fonts/321252_2_0.ttf') format('truetype');}
+
+
+body {
+    background-color: #e2e7ee;
+    font-family: AvenirNextLTPro-Medium,Verdana;
+    line-height: 28px;
+    -webkit-font-smoothing: antialiased;
+    color: #8492a6;
+}
+.row {
+    max-width: 1200px;
+    margin-left: 0;
+}
+.page-title {
+    background: url('https://www.addressy.com/Content/Assets/Logos/Addressy-logo-dark-raspberry.png') no-repeat left center transparent;
+    min-height: 40px;
+    padding-left: 180px;
+    text-indent: -9999px;
+}
+.text-center {
+    text-align: center;
+}
+.align-bottom {
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+.toplevel_page_addressy_settings.auto-fold #wpcontent,
+.toplevel_page_addressy_settings #wpcontent,
+.admin_page_addressy_register #wpcontent  {
+    padding-left: 0px;
+}
+.addressy-header.dark-header {    
+    background-color: #3E4A5B;
+    margin-bottom: 30px;
+    padding : 30px 70px;
+}
+.addressy-header {
+    /*background-color: #e2e7ee;*/
+    background-color: #f0f3f7;
+    
+    padding: 30px 30px 0px 30px;
+}
+.addressy-header .main-logo {
+    float: left;
+    width: 165px;
+    height: 39px;
+}
+
+.plugin-info { 
+    line-height: 2; 
+}
+
+.addressy-container {
+    color: #8492a6;
+    margin: 25px 5px;
+    margin: 0px 5px 25px 5px;
+}
+
+.addressy-register {    
+    margin: 25px 5px 25px -15px ;
+    background-color: #f0f3f7
+}
+
+.addressy-container p {
+    color: #8492a6;
+    line-height: 28px;
+    
+}
+
+.wrap.addressy-container {
+    background-color: #f0f3f7;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.addressy-container .row {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.large-stats {
+    font-size: 44px;
+    line-height: 44px;
+    color: #28c8d3;
+    display: block;
+}
+.settings {
+    cursor: pointer;
+    display: block;
+    text-align: center;
+}
+.main-content {
+    background-color: #f0f3f7;
+}
+.addressy-container a.settings:hover{
+    text-decoration: none;
+}
+.addressy-container .adrsy-box-container {
+    background-color: #fff;
+    border: 1px solid #bec8d5;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-bottom: 1.7rem;
+    margin-right: auto;
+    max-width: 1360px;
+}
+.addressy-container .adrsy-box-container .licence .container {
+    padding: 30px;
+}
+
+.login-container {    
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.addressy-container .adrsy-box-container .licence .container.licence-info {
+    padding-left:40px;
+    padding-right:40px;
+    padding-top:60px;
+    padding-bottom:60px;
+}
+.addressy-container .adrsy-box-container .licence .settings-container {
+    display: none;
+}
+
+.addressy-container .settings .cog {    
+    background-image: url("https://www.addressy.com/Content/Assets/Icons/settings-cog.png");
+    width: 34px;
+    height: 34px;
+    display: block;
+    margin: 0 auto 5px;
+    -moz-transition:0.5s all;
+    -webkit-transition:0.5s all;
+    transition:0.5s all;
+}
+.addressy-container .settings.selected .cog {
+    -moz-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+    transform:rotate(360deg);
+} 
+
+.settings p {
+    background-image: url("https://www.addressy.com/Content/Assets/Icons/arrow-down-dark-grey.png");
+}
+.settings.selected p {
+    background-image: url("https://www.addressy.com/Content/Assets/Icons/arrow-up-dark-grey.png");
+}
+.settings p {
+    background-size: 6px 6px;
+    background-position: right center;
+    background-repeat: no-repeat;
+    padding-right: 10px;
+    width: auto;
+    display: inline;
+}
+
+.settings-container legend {
+    border-top: 1px solid #bec8d5;
+    border-bottom: 1px solid #bec8d5;
+    color: #1f2d3d;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px 0px;
+    padding: 20px 75px;
+    width: 100%;
+    font-family: AvenirLTStd-Book,Verdana;
+}
+
+#formSettings .container {
+    padding : 0px 60px;
+}
+.guide-container {
+    padding: 60px 40px;
+}
+.help-container {
+    padding: 30px 30px 15px 30px;
+}
+.adrsy-box-container.help-container .row {
+    margin-left: -.9375rem;
+    margin-right: -.9375rem;
+}
+.adrsy-box-container.help-container .row  h3{
+    margin-top :1em;
+}
+.addressy-container .guide-container a:hover {
+    text-decoration: none;
+}
+
+.addressy-container .help-container a:hover {
+    text-decoration: none;
+}
+
+.addressy-container .adrsy-box-container.guide-container h3 {
+    margin: 20px 0 10px;
+}
+.addressy-container .adrsy-box-container.guide-container p {
+    margin: 0;
+}
+
+.addressy-container .adrsy-box-container h3 {
+    color: #3E4A5B;
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 0;
+}
+.addressy-container button {
+    border-color: transparent;
+    height: 40px;
+    padding: 0 25px;
+    line-height: 40px;
+    background-color: #E21B6C;
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    border-radius: 4px;
+    -webkit-transition-property: background-color;
+    transition-property: background-color;
+    -webkit-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+    -webkit-transition-duration: .15s;
+    transition-duration: .15s;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+.addressy-container button.transparent-raspberry {
+    background-color: #fff;
+    border: 1px solid #E21B6C;
+    color: #E21B6C;
+}
+.addressy-container button.transparent-raspberry:hover {
+    background-color: #E21B6C;
+    color: #fff;
+}
+.addressy-container .adrsy-box-container button:hover, .addressy-container button:hover {
+    -webkit-transition-duration: .15s;
+    transition-duration: .15s;
+    opacity: 1;
+    background-color: #b8064f;
+    outline: 0;
+    text-decoration: none;
+}
+
+.addressy-container a {
+    color: #E21B6C;
+    text-decoration: none;
+}
+.addressy-container a:hover {
+    text-decoration: underline;
+}
+.addressy-container .adrsy-box-container .fieldset {
+    margin-bottom: 20px;
+}
+.addressy-container .adrsy-box-container comment {
+    display: block;
+    font-size: 0.9em;
+    font-style: italic;
+    margin: 5px 15px;
+    vertical-align: top;
+}
+
+/*.addressy-container .adrsy-box-container label {
+    display: block;
+    font-size: 0.9rem;
+    margin: 4px 0px;
+    vertical-align: top;
+}*/
+.addressy-container label {
+    font-family: Avenir-Book,Verdana;
+    font-size: 15px;
+    color: #3E4A5B;
+    clear: both;
+    margin-bottom: 6px;
+    display: block;
+    margin-top: 20px;
+}
+
+.addressy-container .adrsy-box-container select,
+.addressy-container .adrsy-box-container input,
+.addressy-container .adrsy-box-container textarea {
+    border-radius: 4px;
+    border: 1px solid #bec8d5;
+    margin-bottom: 0px;
+    padding: 10px;
+    width: 100%;
+}
+.addressy-container .adrsy-box-container textarea {
+    min-height: 200px;
+    line-height: 28px;
+}
+
+.addressy-container .adrsy-box-container .adrsy-box-container-footer {
+    margin-top: 20px;
+}
+
+.adrsy-box-container-footer {
+    font:14px;
+    background-color: #f0f3f7;
+    padding: 20px 30px;
+    border-left: 1px solid #bec8d5;
+    border-right: 1px solid #bec8d5;
+    border-bottom: 1px solid #bec8d5;
+    border-radius: 0 0 4px 4px;
+    margin-top: -1.7rem;
+    margin-bottom: 100px;
+}
+.adrsy-box-container-footer a {
+    font-size: 14px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+._keyfocus .addressy-container .adrsy-box-container *:focus {
+    box-shadow: none;
+}
+
+.addressy-container .addressy-message-container {
+    display: block;
+    margin-left: auto;
+    margin-bottom: 3rem;
+    margin-right: auto;
+    max-width: 1360px;
+    padding: 1px;
+}
+.addressy-container .addressy-message {
+    display: none;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+    padding: 10px;
+}
+.addressy-container .addressy-message.addressy-message-error {
+    background-color: #f3c26a;
+    color: #3E4A5B;
+}
+.addressy-container .addressy-message.addressy-message-success {
+    background-color: #28d4ac;
+    color: #fff;
+}
+.addressy-container .addressy-message.addressy-message-info {
+    background-color: #67b6fb;
+    color: #fff;
+}
+.addressy-container button.working::after {
+    content: ' ';
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHdpZHRoPSczNnB4JyBoZWlnaHQ9JzM2cHgnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIiBjbGFzcz0idWlsLXJpcHBsZSI+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9Im5vbmUiIGNsYXNzPSJiayI+PC9yZWN0PjxnPiA8YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJvcGFjaXR5IiBkdXI9IjJzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgYmVnaW49IjBzIiBrZXlUaW1lcz0iMDswLjMzOzEiIHZhbHVlcz0iMTsxOzAiPjwvYW5pbWF0ZT48Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI0MCIgc3Ryb2tlPSIjZmZmZmZmIiBmaWxsPSJub25lIiBzdHJva2Utd2lkdGg9IjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgZHVyPSIycyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIGJlZ2luPSIwcyIga2V5VGltZXM9IjA7MC4zMzsxIiB2YWx1ZXM9IjA7MjI7NDQiPjwvYW5pbWF0ZT48L2NpcmNsZT48L2c+PGc+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0ib3BhY2l0eSIgZHVyPSIycyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIGJlZ2luPSIxcyIga2V5VGltZXM9IjA7MC4zMzsxIiB2YWx1ZXM9IjE7MTswIj48L2FuaW1hdGU+PGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgcj0iNDAiIHN0cm9rZT0iI2ZmZmZmZiIgZmlsbD0ibm9uZSIgc3Ryb2tlLXdpZHRoPSI4IiBzdHJva2UtbGluZWNhcD0icm91bmQiPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9InIiIGR1cj0iMnMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBiZWdpbj0iMXMiIGtleVRpbWVzPSIwOzAuMzM7MSIgdmFsdWVzPSIwOzIyOzQ0Ij48L2FuaW1hdGU+PC9jaXJjbGU+PC9nPjwvc3ZnPg==);
+}
+
+.credit-bar{    
+    width:100%;    
+}
+.credit-bar p {
+    padding: 0;
+    margin: 0;
+    font-size : 14px;
+    font-weight: 400;
+    color: #fff
+}
+
+.credit-bar p span {
+    font-size: 11px
+}
+
+.credit-bar .outer {
+    width: 100%;
+    height: 8px;
+    border-radius: 5000px;
+    background-color: #1f2d3d
+}
+
+.credit-bar .outer .inner {
+    transition: width 1s ease;
+    height: 8px;
+    border-radius: 5000px;
+    background-color: #28c8d3
+}
+
+.fr {
+    float: right!important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+#formLogOut {
+    text-align: right;
+}
+
+button.secure-container {
+    width: 100%;
+    clear: both;
+    margin: 20px 0;
+    height: 50px;
+}
+
+.addressy-container a.button, .addressy-container button {
+    height: 50px;
+    padding: 0 40px;
+    line-height: 50px;
+    background-color: #E21B6C;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 4px;
+    -webkit-transition-property: background-color;
+    transition-property: background-color;
+    -webkit-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+    -webkit-transition-duration: .15s;
+    transition-duration: .15s;
+    position: relative;
+    z-index: 1;
+    display: inline-block
+}
+
+.addressy-container a.button.working, .addressy-container button.working {
+    transition: background ease .2s;
+    transition-property: background;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: initial;
+    color: #E21B6C;
+}
+
+.addressy-container a.button.working::after,.addressy-container button.working::after {
+    content: ' ';
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-left: -25px;
+    left: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHdpZHRoPSczNnB4JyBoZWlnaHQ9JzM2cHgnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIiBjbGFzcz0idWlsLXJpcHBsZSI+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9Im5vbmUiIGNsYXNzPSJiayI+PC9yZWN0PjxnPiA8YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJvcGFjaXR5IiBkdXI9IjJzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSIgYmVnaW49IjBzIiBrZXlUaW1lcz0iMDswLjMzOzEiIHZhbHVlcz0iMTsxOzAiPjwvYW5pbWF0ZT48Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI0MCIgc3Ryb2tlPSIjZmZmZmZmIiBmaWxsPSJub25lIiBzdHJva2Utd2lkdGg9IjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0iciIgZHVyPSIycyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIGJlZ2luPSIwcyIga2V5VGltZXM9IjA7MC4zMzsxIiB2YWx1ZXM9IjA7MjI7NDQiPjwvYW5pbWF0ZT48L2NpcmNsZT48L2c+PGc+PGFuaW1hdGUgYXR0cmlidXRlTmFtZT0ib3BhY2l0eSIgZHVyPSIycyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiIGJlZ2luPSIxcyIga2V5VGltZXM9IjA7MC4zMzsxIiB2YWx1ZXM9IjE7MTswIj48L2FuaW1hdGU+PGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgcj0iNDAiIHN0cm9rZT0iI2ZmZmZmZiIgZmlsbD0ibm9uZSIgc3Ryb2tlLXdpZHRoPSI4IiBzdHJva2UtbGluZWNhcD0icm91bmQiPjxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9InIiIGR1cj0iMnMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIiBiZWdpbj0iMXMiIGtleVRpbWVzPSIwOzAuMzM7MSIgdmFsdWVzPSIwOzIyOzQ0Ij48L2FuaW1hdGU+PC9jaXJjbGU+PC9nPjwvc3ZnPg==)
+}
+
+.addressy-container h1, .addressy-container h2, .addressy-container h3, .addressy-containerh4, .addressy-container h5 {
+    font-family: AvenirLTStd-Book,Verdana;
+    font-weight: 400
+}
+
+.addressy-container h1, .addressy-container h2 {
+    color: #1f2d3d
+}
+
+.addressy-container h3, .addressy-container h4, .addressy-container h5 {
+    color: #3E4A5B;
+    margin-bottom: 10px
+}
+
+.addressy-container h1 {
+    font-size: 44px;
+    line-height: 62px
+}
+
+.addressy-container h2 {
+    font-size: 34px;
+    line-height: 44px
+}
+
+.addressy-container h3 {
+    font-size: 26px;
+    line-height: 36px
+}
+
+.addressy-container h4 {
+    font-size: 20px;
+    line-height: 32px
+}
+
+.addressy-container h5 {
+    font-size: 16px;
+    line-height: 30px
+}
+
+h1.fl+p,h2.fl+p,h3.fl+p,h4.fl+p,h5.fl+p {
+    margin-left: 10px;
+    padding-top: 7px
+}
+
+.addressy-container a {
+    color: #E21B6C;
+    text-decoration: none
+}
+
+.addressy-container a:hover {
+    text-decoration: underline
+}
+
+.addressy-container label {
+    width: 100%;
+    clear: both;
+    margin-bottom: 10px;
+    display: block;
+}
+.addressy-container input, .addressy-container textarea {
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #bec8d5;
+    height: 50px;
+    line-height: 50px;
+    padding: 10px;
+    color: #8492a6;
+    margin-bottom: 10px;
+    clear: both;
+    font-size: 14px;
+}
+
+.addressy-container input:-moz-placeholder,input:-ms-input-placeholder,input::-moz-placeholder,input::-webkit-input-placeholder,textarea:-moz-placeholder,textarea:-ms-input-placeholder,textarea::-moz-placeholder,textarea::-webkit-input-placeholder {
+    color: #8492a6
+}
+
+.addressy-container input:focus,textarea:focus {
+    border-color: #28c8d3;
+    box-shadow : none;
+}
+
+.addressy-container input.error,textarea.error {
+    border-color: #f3c26a
+}
+
+.addressy-container p.intro {
+    font-size: 17px;
+    line-height: 34px;
+    margin-bottom: 0px;
+}
+
+.addressy-container p.small {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.no-padding {
+    padding :0px;
+}
+
+button.btnNarrow {
+    height : 40px;
+    line-height: 40px;
+}
+#post-body {
+    padding-left : 70px;
+    padding-right : 70px;    
+    padding-top : 30px;
+    padding-bottom : 500px;
+}
+
+.padding-top-30 {
+    padding-top : 30px;
+}
+
+@media screen and (max-width: 1024px) {
+    .credit-bar {
+        margin-top:10px;
+    }
+
+    #formLogOut {
+        margin-top:10px;
+    }
+}
+
+@media screen and (max-width: 782px) {
+    .addressy-container .adrsy-box-container {
+        padding: 15px;
+    }
+}
+
+

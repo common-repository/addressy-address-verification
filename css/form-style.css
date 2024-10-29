@@ -1,0 +1,38 @@
+.message {
+	text-align: left;
+	background-color: #fbfbfb;
+	border-left: 3px solid #7ad03a;
+	padding: 2%;
+}
+.error {
+	border-color: #C00;
+	color: #C00;
+}
+#addressy-application-form .addressy-input {
+	clear: both;
+	margin-bottom: 2%;
+}
+#addressy-application-form .addressy-input label {
+	display: block;
+	margin-bottom: 1%;
+}
+#addressy-application-form .addressy-input .addressy-text-input {
+	padding: 1%;
+	border: 0;
+	border: 1px solid #dddddd;
+	display: block;
+	width: 100%;
+}
+p.addressy_description {
+	font-size: 90%;
+	font-style: italic;
+}
+
+#addressy-application-form label.error {
+	display: none;
+}
+label.require:after {
+	content: " *";
+	color: #C00;
+}
+
